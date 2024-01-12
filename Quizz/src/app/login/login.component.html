@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slide Navbar</title>
+	
+</head>
+<body>
+	<div class="main">  	
+
+		<div class="signup">
+			<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+				
+				<label >Login</label>
+				<input type="email" name="email" placeholder="Email" formControlName="email" [(ngModel)]='loginObj.email' required>
+				<input type="password" name="pswd" placeholder="Password" formControlName="password" [(ngModel)]='loginObj.password' required>
+				<button>Login</button>
+
+			</form>
+			<button ><a href="/register">Register</a></button>
+
+		</div>
+	</div>
+</body>
+</html>

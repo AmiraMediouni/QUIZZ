@@ -1,0 +1,204 @@
+{
+  "quizz": [
+    {
+      "id": 1,
+      "name": "QUIZ1",
+      "subject": "ANGULAR",
+      "nbQuestion": 5,
+      "questions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "name": "QUIZ2",
+      "subject": "BOOTSTRAP",
+      "nbQuestion": 4,
+      "questions": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "name": "QUIZ3",
+      "subject": "HTML",
+      "nbQuestion": 3,
+      "questions": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "content": "first question",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "content1",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "content2",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "content3",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "content": "content4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "content": "second question",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "content1",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "content2",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "content3",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "content": "content4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "content": "third question",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "content1",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "content2",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "content3",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "content": "content4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "content": "question4",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "content1",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "content2",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "content3",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "content": "content4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "content": "question5",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "content1",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "content2",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "content3",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "content": "content4",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "quizResults": [
+    {
+      "id": 0,
+      "quizId": 2,
+      "score": 0,
+      "percentage": 0,
+      "correct": 0,
+      "inCorrect": 0,
+      "unAttempt": 0,
+      "response": []
+    },
+    {
+      "id": 0,
+      "quizId": 1,
+      "score": 0,
+      "percentage": 0,
+      "correct": 0,
+      "inCorrect": 0,
+      "unAttempt": 0,
+      "response": []
+    }
+  ]
+}

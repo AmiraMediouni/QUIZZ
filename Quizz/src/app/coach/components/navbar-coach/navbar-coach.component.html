@@ -1,0 +1,27 @@
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img width="40" alt="Elitech Logo" src="assets/img/logo_elitech.jpg"/><span style="color: #00a6fc;">QUIZZ</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse  justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-3" aria-current="page" href="/home" style="padding-right: 2rem;color:#00a6fc">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3" routerLink="./addQuizz" style="padding-right: 2rem;color:#00a6fc">Add Quizz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3" routerLink="./listQuizz" style="padding-right: 2rem;color:#00a6fc">List Quizz</a>
+          </li>
+          <li class="nav-item" role="button">
+            <a class="nav-link fs-3" (click)="logOut()" style="padding-right: 2rem;color:#00a6fc">Log Out</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </nav>
